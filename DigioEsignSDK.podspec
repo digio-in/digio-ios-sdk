@@ -12,7 +12,8 @@ Pod::Spec.new do |spec|
 
   spec.license      = { :type => "BSD", :file => "LICENSE" }
 
-  spec.author    = "Digio"
+
+  spec.author             = { "Digio" => "akash@digio.in" }
 
   spec.social_media_url   = "https://twitter.com/digio_in"
   spec.platform     = :ios
