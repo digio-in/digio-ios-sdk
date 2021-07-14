@@ -12,18 +12,19 @@ import DigioEsignSDK
 >Step 2: Configure Digio instance
 
 ```sh
-DigioBuilder()
-         .withController(viewController: self) // Mandatory pass your view controller here
-         .setLogo(logo: "") //optional your logo link
-         .setDocumentId(documentId: "docId") // Mandatory Unique MandateId /Document ID
-         .setIdentifier(identifier: "email/phone") // Mandatory identifier
-         .setTokenId(tokenId: "") // Optional: token id to bypass first factor authentication
-         .setEnvironment(environment: DigioEnvironment.SANDBOX) // Mandatory: SANDBOX / PRODUCTION
-         .setServiceMode(serviceMode: DigioServiceMode.OTP) // Mandatory
-         .setAdditionalParams(additionalParams: additionalParam) // optional use for eNach/mandate only
-         .build()
-
+         DigioBuilder()
+                .withController(viewController: self) /**  Mandatory:- pass your view controller here **/
+                .setLogo(logo: "")   /**  Optional:- your logo link **/
+                .setDocumentId(documentId: "docId") /** Mandatory:- Unique MandateId /Document ID  **/
+                .setIdentifier(identifier: "email/phone")  /** Mandatory identifier **/
+                .setTokenId(tokenId: "")   /** Optional: token id to bypass first factor authenticatio**/
+                .setEnvironment(environment: DigioEnvironment.SANDBOX) /** Mandatory: SANDBOX / PRODUCTION **/
+                .setServiceMode(serviceMode: DigioServiceMode.OTP) /** Mandatory **/
+                .setAdditionalParams(additionalParams: additionalParam) /** optional use for eNach/mandate only **/
+                .build()
 ```
+
+
 
 ### Handle SDK response
 - Extend DigioEsignDelegate, add onDigioResponseSuccess & onDigioResponseFailure protocol stubs
