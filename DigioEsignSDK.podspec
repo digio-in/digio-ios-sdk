@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "DigioEsignSDK"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Digio eSign, Mandate SDK"
 
   spec.description  = <<-DESC
