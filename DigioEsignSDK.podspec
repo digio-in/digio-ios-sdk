@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "DigioEsignSDK"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "Digio eSign, Mandate SDK"
 
   spec.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.social_media_url   = "https://twitter.com/digio_in"
   spec.platform     = :ios
   spec.ios.deployment_target = "12.0"
-  spec.swift_version = "5.5"
+  spec.swift_version = "5.6"
 
   spec.source       = { :git => "https://github.com/digio-in/digio-ios-sdk.git", :tag => "#{spec.version}" }
 
