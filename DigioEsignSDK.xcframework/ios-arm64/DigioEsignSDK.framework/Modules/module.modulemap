@@ -6,6 +6,6 @@ framework module DigioEsignSDK {
 }
 
 module DigioEsignSDK.Swift {
-    header "DigioEsignSDK-Swift.h"
-    requires objc
+  header "DigioEsignSDK-Swift.h"
+  requires objc
 }

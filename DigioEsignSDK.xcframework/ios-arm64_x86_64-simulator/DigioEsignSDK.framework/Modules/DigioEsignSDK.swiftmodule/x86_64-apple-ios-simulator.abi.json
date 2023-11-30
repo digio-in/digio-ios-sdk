@@ -1,0 +1,1100 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigioEsignSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DigioEsignSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DigioBuilder",
+        "printedName": "DigioBuilder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DigioBuilder",
+                "printedName": "DigioEsignSDK.DigioBuilder",
+                "usr": "s:13DigioEsignSDK0A7BuilderC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13DigioEsignSDK0A7BuilderCACycfc",
+            "mangledName": "$s13DigioEsignSDK0A7BuilderCACycfc",
+            "moduleName": "DigioEsignSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setLogo",
+            "printedName": "setLogo(logo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DigioBuilder",
+                "printedName": "DigioEsignSDK.DigioBuilder",
+                "usr": "s:13DigioEsignSDK0A7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A7BuilderC7setLogo4logoACSSSg_tF",
+            "mangledName": "$s13DigioEsignSDK0A7BuilderC7setLogo4logoACSSSg_tF",
+            "moduleName": "DigioEsignSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setEnvironment",
+            "printedName": "setEnvironment(environment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DigioBuilder",
+                "printedName": "DigioEsignSDK.DigioBuilder",
+                "usr": "s:13DigioEsignSDK0A7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DigioEnvironment",
+                "printedName": "DigioEsignSDK.DigioEnvironment",
+                "usr": "s:13DigioEsignSDK0A11EnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A7BuilderC14setEnvironment11environmentAcA0aF0O_tF",
+            "mangledName": "$s13DigioEsignSDK0A7BuilderC14setEnvironment11environmentAcA0aF0O_tF",
+            "moduleName": "DigioEsignSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDocumentId",
+            "printedName": "setDocumentId(documentId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DigioBuilder",
+                "printedName": "DigioEsignSDK.DigioBuilder",
+                "usr": "s:13DigioEsignSDK0A7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A7BuilderC13setDocumentId08documentG0ACSS_tF",
+            "mangledName": "$s13DigioEsignSDK0A7BuilderC13setDocumentId08documentG0ACSS_tF",
+            "moduleName": "DigioEsignSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setIdentifier",
+            "printedName": "setIdentifier(identifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DigioBuilder",
+                "printedName": "DigioEsignSDK.DigioBuilder",
+                "usr": "s:13DigioEsignSDK0A7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A7BuilderC13setIdentifier10identifierACSS_tF",
+            "mangledName": "$s13DigioEsignSDK0A7BuilderC13setIdentifier10identifierACSS_tF",
+            "moduleName": "DigioEsignSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTokenId",
+            "printedName": "setTokenId(tokenId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DigioBuilder",
+                "printedName": "DigioEsignSDK.DigioBuilder",
+                "usr": "s:13DigioEsignSDK0A7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A7BuilderC10setTokenId05tokenG0ACSSSg_tF",
+            "mangledName": "$s13DigioEsignSDK0A7BuilderC10setTokenId05tokenG0ACSSSg_tF",
+            "moduleName": "DigioEsignSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withController",
+            "printedName": "withController(viewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DigioBuilder",
+                "printedName": "DigioEsignSDK.DigioBuilder",
+                "usr": "s:13DigioEsignSDK0A7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A7BuilderC14withController04viewF0ACSo06UIViewF0C_tF",
+            "mangledName": "$s13DigioEsignSDK0A7BuilderC14withController04viewF0ACSo06UIViewF0C_tF",
+            "moduleName": "DigioEsignSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setServiceMode",
+            "printedName": "setServiceMode(serviceMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DigioBuilder",
+                "printedName": "DigioEsignSDK.DigioBuilder",
+                "usr": "s:13DigioEsignSDK0A7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DigioServiceMode",
+                "printedName": "DigioEsignSDK.DigioServiceMode",
+                "usr": "s:13DigioEsignSDK0A11ServiceModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A7BuilderC14setServiceMode07serviceG0AcA0afG0O_tF",
+            "mangledName": "$s13DigioEsignSDK0A7BuilderC14setServiceMode07serviceG0AcA0afG0O_tF",
+            "moduleName": "DigioEsignSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPrimaryColor",
+            "printedName": "setPrimaryColor(hexColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DigioBuilder",
+                "printedName": "DigioEsignSDK.DigioBuilder",
+                "usr": "s:13DigioEsignSDK0A7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A7BuilderC15setPrimaryColor03hexG0ACSS_tF",
+            "mangledName": "$s13DigioEsignSDK0A7BuilderC15setPrimaryColor03hexG0ACSS_tF",
+            "moduleName": "DigioEsignSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFontFormat",
+            "printedName": "setFontFormat(fontFormat:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DigioBuilder",
+                "printedName": "DigioEsignSDK.DigioBuilder",
+                "usr": "s:13DigioEsignSDK0A7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A7BuilderC13setFontFormat04fontG0ACSS_tF",
+            "mangledName": "$s13DigioEsignSDK0A7BuilderC13setFontFormat04fontG0ACSS_tF",
+            "moduleName": "DigioEsignSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFontFamily",
+            "printedName": "setFontFamily(fontFamily:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DigioBuilder",
+                "printedName": "DigioEsignSDK.DigioBuilder",
+                "usr": "s:13DigioEsignSDK0A7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A7BuilderC13setFontFamily04fontG0ACSS_tF",
+            "mangledName": "$s13DigioEsignSDK0A7BuilderC13setFontFamily04fontG0ACSS_tF",
+            "moduleName": "DigioEsignSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFontUrl",
+            "printedName": "setFontUrl(fontUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DigioBuilder",
+                "printedName": "DigioEsignSDK.DigioBuilder",
+                "usr": "s:13DigioEsignSDK0A7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A7BuilderC10setFontUrl04fontG0ACSS_tF",
+            "mangledName": "$s13DigioEsignSDK0A7BuilderC10setFontUrl04fontG0ACSS_tF",
+            "moduleName": "DigioEsignSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDelegate",
+            "printedName": "setDelegate(delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DigioBuilder",
+                "printedName": "DigioEsignSDK.DigioBuilder",
+                "usr": "s:13DigioEsignSDK0A7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DigioEsignDelegate",
+                "printedName": "DigioEsignSDK.DigioEsignDelegate",
+                "usr": "s:13DigioEsignSDK0aB8DelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A7BuilderC11setDelegate8delegateAcA0abF0_p_tF",
+            "mangledName": "$s13DigioEsignSDK0A7BuilderC11setDelegate8delegateAcA0abF0_p_tF",
+            "moduleName": "DigioEsignSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentSdkVersion",
+            "printedName": "getCurrentSdkVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A7BuilderC20getCurrentSdkVersionSSyFZ",
+            "mangledName": "$s13DigioEsignSDK0A7BuilderC20getCurrentSdkVersionSSyFZ",
+            "moduleName": "DigioEsignSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdditionalParams",
+            "printedName": "setAdditionalParams(additionalParams:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DigioBuilder",
+                "printedName": "DigioEsignSDK.DigioBuilder",
+                "usr": "s:13DigioEsignSDK0A7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A7BuilderC19setAdditionalParams010additionalG0ACSDyS2SG_tF",
+            "mangledName": "$s13DigioEsignSDK0A7BuilderC19setAdditionalParams010additionalG0ACSDyS2SG_tF",
+            "moduleName": "DigioEsignSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A7BuilderC5buildyyF",
+            "mangledName": "$s13DigioEsignSDK0A7BuilderC5buildyyF",
+            "moduleName": "DigioEsignSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13DigioEsignSDK0A7BuilderC",
+        "mangledName": "$s13DigioEsignSDK0A7BuilderC",
+        "moduleName": "DigioEsignSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigioEsignSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DigioEsignSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "DigioEsignSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "JavaScriptCore",
+        "printedName": "JavaScriptCore",
+        "declKind": "Import",
+        "moduleName": "DigioEsignSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigioEsignSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigioEsignSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DigioServiceMode",
+        "printedName": "DigioServiceMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "OTP",
+            "printedName": "OTP",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DigioEsignSDK.DigioServiceMode.Type) -> DigioEsignSDK.DigioServiceMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DigioServiceMode",
+                    "printedName": "DigioEsignSDK.DigioServiceMode",
+                    "usr": "s:13DigioEsignSDK0A11ServiceModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DigioEsignSDK.DigioServiceMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DigioServiceMode",
+                        "printedName": "DigioEsignSDK.DigioServiceMode",
+                        "usr": "s:13DigioEsignSDK0A11ServiceModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DigioEsignSDK0A11ServiceModeO3OTPyA2CmF",
+            "mangledName": "$s13DigioEsignSDK0A11ServiceModeO3OTPyA2CmF",
+            "moduleName": "DigioEsignSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DigioEsignSDK.DigioServiceMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DigioServiceMode",
+                    "printedName": "DigioEsignSDK.DigioServiceMode",
+                    "usr": "s:13DigioEsignSDK0A11ServiceModeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13DigioEsignSDK0A11ServiceModeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s13DigioEsignSDK0A11ServiceModeO8rawValueACSgSS_tcfc",
+            "moduleName": "DigioEsignSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DigioEsignSDK0A11ServiceModeO8rawValueSSvp",
+            "mangledName": "$s13DigioEsignSDK0A11ServiceModeO8rawValueSSvp",
+            "moduleName": "DigioEsignSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DigioEsignSDK0A11ServiceModeO8rawValueSSvg",
+                "mangledName": "$s13DigioEsignSDK0A11ServiceModeO8rawValueSSvg",
+                "moduleName": "DigioEsignSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13DigioEsignSDK0A11ServiceModeO",
+        "mangledName": "$s13DigioEsignSDK0A11ServiceModeO",
+        "moduleName": "DigioEsignSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigioEsignSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DigioEnvironment",
+        "printedName": "DigioEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "PRODUCTION",
+            "printedName": "PRODUCTION",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DigioEsignSDK.DigioEnvironment.Type) -> DigioEsignSDK.DigioEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DigioEnvironment",
+                    "printedName": "DigioEsignSDK.DigioEnvironment",
+                    "usr": "s:13DigioEsignSDK0A11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DigioEsignSDK.DigioEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DigioEnvironment",
+                        "printedName": "DigioEsignSDK.DigioEnvironment",
+                        "usr": "s:13DigioEsignSDK0A11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DigioEsignSDK0A11EnvironmentO10PRODUCTIONyA2CmF",
+            "mangledName": "$s13DigioEsignSDK0A11EnvironmentO10PRODUCTIONyA2CmF",
+            "moduleName": "DigioEsignSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "SANDBOX",
+            "printedName": "SANDBOX",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DigioEsignSDK.DigioEnvironment.Type) -> DigioEsignSDK.DigioEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DigioEnvironment",
+                    "printedName": "DigioEsignSDK.DigioEnvironment",
+                    "usr": "s:13DigioEsignSDK0A11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DigioEsignSDK.DigioEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DigioEnvironment",
+                        "printedName": "DigioEsignSDK.DigioEnvironment",
+                        "usr": "s:13DigioEsignSDK0A11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DigioEsignSDK0A11EnvironmentO7SANDBOXyA2CmF",
+            "mangledName": "$s13DigioEsignSDK0A11EnvironmentO7SANDBOXyA2CmF",
+            "moduleName": "DigioEsignSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DigioEsignSDK.DigioEnvironment?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DigioEnvironment",
+                    "printedName": "DigioEsignSDK.DigioEnvironment",
+                    "usr": "s:13DigioEsignSDK0A11EnvironmentO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13DigioEsignSDK0A11EnvironmentO8rawValueACSgSS_tcfc",
+            "mangledName": "$s13DigioEsignSDK0A11EnvironmentO8rawValueACSgSS_tcfc",
+            "moduleName": "DigioEsignSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DigioEsignSDK0A11EnvironmentO8rawValueSSvp",
+            "mangledName": "$s13DigioEsignSDK0A11EnvironmentO8rawValueSSvp",
+            "moduleName": "DigioEsignSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DigioEsignSDK0A11EnvironmentO8rawValueSSvg",
+                "mangledName": "$s13DigioEsignSDK0A11EnvironmentO8rawValueSSvg",
+                "moduleName": "DigioEsignSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13DigioEsignSDK0A11EnvironmentO",
+        "mangledName": "$s13DigioEsignSDK0A11EnvironmentO",
+        "moduleName": "DigioEsignSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigioEsignSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DigioEsignDelegate",
+        "printedName": "DigioEsignDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onDigioResponseSuccess",
+            "printedName": "onDigioResponseSuccess(response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0aB8DelegateP02onA15ResponseSuccess8responseySS_tF",
+            "mangledName": "$s13DigioEsignSDK0aB8DelegateP02onA15ResponseSuccess8responseySS_tF",
+            "moduleName": "DigioEsignSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DigioEsignSDK.DigioEsignDelegate>",
+            "sugared_genericSig": "<Self where Self : DigioEsignSDK.DigioEsignDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDigioResponseFailure",
+            "printedName": "onDigioResponseFailure(response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0aB8DelegateP02onA15ResponseFailure8responseySS_tF",
+            "mangledName": "$s13DigioEsignSDK0aB8DelegateP02onA15ResponseFailure8responseySS_tF",
+            "moduleName": "DigioEsignSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DigioEsignSDK.DigioEsignDelegate>",
+            "sugared_genericSig": "<Self where Self : DigioEsignSDK.DigioEsignDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onGatewayEvent",
+            "printedName": "onGatewayEvent(event:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0aB8DelegateP14onGatewayEvent5eventySS_tF",
+            "mangledName": "$s13DigioEsignSDK0aB8DelegateP14onGatewayEvent5eventySS_tF",
+            "moduleName": "DigioEsignSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DigioEsignSDK.DigioEsignDelegate>",
+            "sugared_genericSig": "<Self where Self : DigioEsignSDK.DigioEsignDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13DigioEsignSDK0aB8DelegateP",
+        "mangledName": "$s13DigioEsignSDK0aB8DelegateP",
+        "moduleName": "DigioEsignSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigioEsignSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/naman\/Documents\/Digio\/iOS\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 507,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/naman\/Documents\/Digio\/iOS\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 628,
+      "length": 6,
+      "value": "\"Back\""
+    },
+    {
+      "filePath": "\/Users\/naman\/Documents\/Digio\/iOS\/iosesignsdk\/DigioEsignSDK\/DigioEsignConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 226,
+      "length": 4,
+      "value": "1001"
+    },
+    {
+      "filePath": "\/Users\/naman\/Documents\/Digio\/iOS\/iosesignsdk\/DigioEsignSDK\/DigioEsignConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 4,
+      "value": "1002"
+    },
+    {
+      "filePath": "\/Users\/naman\/Documents\/Digio\/iOS\/iosesignsdk\/DigioEsignSDK\/DigioEsignConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 312,
+      "length": 5,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/naman\/Documents\/Digio\/iOS\/iosesignsdk\/DigioEsignSDK\/DigioEsignConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 362,
+      "length": 5,
+      "value": "10015"
+    },
+    {
+      "filePath": "\/Users\/naman\/Documents\/Digio\/iOS\/iosesignsdk\/DigioEsignSDK\/DigioEsignConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 408,
+      "length": 5,
+      "value": "10017"
+    },
+    {
+      "filePath": "\/Users\/naman\/Documents\/Digio\/iOS\/iosesignsdk\/DigioEsignSDK\/DigioEsignConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 459,
+      "length": 5,
+      "value": "10020"
+    },
+    {
+      "filePath": "\/Users\/naman\/Documents\/Digio\/iOS\/iosesignsdk\/DigioEsignSDK\/DigioEsignConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 515,
+      "length": 7,
+      "value": "\"1.0.1\""
+    }
+  ]
+}
