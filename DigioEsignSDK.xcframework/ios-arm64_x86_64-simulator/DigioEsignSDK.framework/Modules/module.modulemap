@@ -1,7 +1,7 @@
 framework module DigioEsignSDK {
   umbrella header "DigioEsignSDK.h"
-
   export *
+
   module * { export * }
 }
 
