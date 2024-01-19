@@ -38,6 +38,9 @@ extension YourViewController : DigioEsignDelegate {
       func onDigioResponseFailure(response: String) {
           print("Failure \(response)")
       }
+       func onGatewayEvent(event: String) {
+        print("Gateway Funnel Event \(event)")
+    }
   }
 
 ```
